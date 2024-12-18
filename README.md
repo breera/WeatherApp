@@ -26,52 +26,8 @@ The app follows a modular architecture pattern, separating concerns into distinc
 - **Ktor**: For making network requests.
 - **Koin**: For dependency injection.
 - **Coroutines and Flow**: For asynchronous programming and state management.
+- **Data Store**: For data Persistence.
 
 ## Application Heirarchy
+![WhatsApp Image 2024-12-18 at 5 40 41 PM](https://github.com/user-attachments/assets/589359aa-71d7-40be-80e2-e05dd309ac10)
 
-app/                        # App module (Entry point)
-├── build.gradle.kts
-├── core/                   # Core module (Shared logic and utilities)
-│   ├── manifests/
-│   ├── kotlin+java/
-│   │   └── com.breera.core
-│   │       ├── data/       # Data layer
-│   │       ├── di/         # Dependency injection
-│   │       ├── domain/     # Business logic
-│   │       └── presentation/ # UI shared components
-│   ├── res/
-│ 
-│
-├── feature-home/           # Home feature module
-│   ├── manifests/
-│   ├── kotlin+java/
-│   │   └── com.breera.feature_home
-│   │       ├── data/
-│   │       │   ├── dto/    # Data Transfer Objects
-│   │       │   ├── local/  # Local data sources
-│   │       │   ├── network/# API calls and remote sources
-│   │       │   └── repository/ # Repositories for data access
-│   │       ├── di/         # Dependency injection
-│   │       ├── domain/     # Business logic
-│   │       └── presentation/
-│   │           ├── component/  # UI components
-│   │           ├── CityWeatherAction.kt
-│   │           ├── CityWeatherScreen.kt
-│   │           ├── CityWeatherStates.kt
-│   │           └── CityWeatherVM.kt  # ViewModel
-│   ├── res/
-│   └── test/               # Unit tests for feature-home
-│
-├── theme/                  # Theme module (UI styles and design system)
-│   ├── manifests/
-│   ├── kotlin+java/
-│   │   └── com.breera.theme.theme
-│   │       ├── Color.kt    # Color palette definitions
-│   │       ├── Theme.kt    # Theme definitions
-│   │       └── Type.kt     # Typography definitions
-│   ├── res/
-│
-│
-└── settings.gradle.kts     # Includes modules in the project
-
-  
