@@ -1,3 +1,4 @@
+
 # WeatherApp 📱☁️
 
 Project Overview 🌦️
@@ -30,4 +31,12 @@ The app follows a modular architecture pattern, separating concerns into distinc
 
 ## Application Heirarchy
 ![WhatsApp Image 2024-12-18 at 5 40 41 PM](https://github.com/user-attachments/assets/589359aa-71d7-40be-80e2-e05dd309ac10)
+
+
+## Application Screen
+
+<img width="662" alt="image" src="https://github.com/user-attachments/assets/0e6a3610-8b69-4b2e-8c8f-d930852bab84" />
+<img width="662" alt="image" src="https://github.com/user-attachments/assets/6da7be7c-a809-4e3b-a1da-d283d38d6ca6" />
+
+
 
