@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_hint">Search Location</string>>
+    <string name="search_icon_description">Search</string>
+    <string name="humidity">Humidity</string>
+    <string name="uv_index">UV</string>
+    <string name="feels_like">Feels Like</string>>
+    <string name="no_city_lable">No City Selected</string>>
+    <string name="no_city_found">No City matches your Search</string>>
+    <string name="hint">Please choose a city name like Lahore, New York etc </string>>
+    <string name="hint_error">Application Error </string>>
+    <string name="please_select_city">Please Search For A City</string>>
+</resources>
